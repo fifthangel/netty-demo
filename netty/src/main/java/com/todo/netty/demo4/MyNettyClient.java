@@ -1,0 +1,97 @@
+package com.todo.netty.demo4;
+
+import com.todo.protobuf.DataInfo;
+import io.netty.bootstrap.Bootstrap;
+import io.netty.channel.*;
+import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.socket.SocketChannel;
+import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
+import io.netty.handler.codec.LengthFieldPrepender;
+import io.netty.handler.codec.protobuf.ProtobufDecoder;
+import io.netty.handler.codec.protobuf.ProtobufEncoder;
+import io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder;
+import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
+import io.netty.handler.codec.string.StringDecoder;
+import io.netty.handler.codec.string.StringEncoder;
+import io.netty.util.CharsetUtil;
+
+/**
+ *@description:客户端
+ *
+ *@param
+ *@author Sjh
+ *@date 2019/6/18 13:58
+ *@return
+ *@version 1.0.1
+ */
+public class MyNettyClient {
+
+    public static void main(String[] args) throws InterruptedException {
+
+        //主线程经组
+        EventLoopGroup eventLoopGroup = new NioEventLoopGroup();
+
+        try {
+            //客户端启动引导
+            Bootstrap bootstrap = new Bootstrap();
+            bootstrap.group(eventLoopGroup)
+                    .channel(NioSocketChannel.class)
+                    .handler(new MyClientInitializer());
+
+            //异步监听端口
+            ChannelFuture channelFuture = bootstrap.connect("localhost", 8899).sync();
+            channelFuture.channel().closeFuture().sync();
+
+        } finally {
+            eventLoopGroup.shutdownGracefully();
+        }
+    }
+}
+
+class MyClientInitializer extends ChannelInitializer<SocketChannel> {
+
+    @Override
+    protected void initChannel(SocketChannel socketChannel) throws Exception {
+        //打开管道
+        ChannelPipeline pipeline = socketChannel.pipeline();
+
+        //添加 protobuf 各个处理handler
+        pipeline.addLast(new ProtobufVarint32FrameDecoder());
+        pipeline.addLast(new ProtobufDecoder(DataInfo.Person.getDefaultInstance()));
+        pipeline.addLast(new ProtobufVarint32LengthFieldPrepender());
+        pipeline.addLast(new ProtobufEncoder());
+
+        pipeline.addLast(new MyClientHandler());
+    }
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        cause.printStackTrace();
+        ctx.close();
+    }
+}
+
+class MyClientHandler extends SimpleChannelInboundHandler<DataInfo.Person> {
+
+    @Override
+    protected void channelRead0(ChannelHandlerContext ctx, DataInfo.Person person) throws Exception {
+
+
+    }
+
+    @Override
+    public void channelActive(ChannelHandlerContext ctx) throws Exception {
+
+        DataInfo.Person person =DataInfo.Person.newBuilder().setName("张三").setAge(20).setAddress("北京").build();
+
+        //发送给服务器
+        ctx.writeAndFlush(person);
+    }
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        cause.printStackTrace();
+        ctx.close();
+    }
+}
