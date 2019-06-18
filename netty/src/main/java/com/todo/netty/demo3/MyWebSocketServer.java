@@ -28,7 +28,6 @@ import java.time.LocalDateTime;
  *@return
  *@version 1.0.1
  */
-
 public class MyWebSocketServer {
 
     public static void main(String[] args) throws Exception {

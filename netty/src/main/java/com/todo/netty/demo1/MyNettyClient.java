@@ -11,16 +11,28 @@ import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import io.netty.util.CharsetUtil;
 
-
+/**
+ *@description:客户端
+ *
+ *@param
+ *@author Sjh
+ *@date 2019/6/18 13:58
+ *@return
+ *@version 1.0.1
+ */
 public class MyNettyClient {
 
     public static void main(String[] args) throws InterruptedException {
 
+        //主线程经组
         EventLoopGroup eventLoopGroup = new NioEventLoopGroup();
 
         try {
+            //客户端启动引导
             Bootstrap bootstrap = new Bootstrap();
-            bootstrap.group(eventLoopGroup).channel(NioSocketChannel.class).handler(new MyClientInitializer());
+            bootstrap.group(eventLoopGroup)
+                    .channel(NioSocketChannel.class)
+                    .handler(new MyClientInitializer());
 
             ChannelFuture channelFuture = bootstrap.connect("localhost", 8899).sync();
             channelFuture.channel().closeFuture().sync();
@@ -41,7 +53,7 @@ class MyClientInitializer extends ChannelInitializer<SocketChannel> {
         pipeline.addLast("lengthFieldPrepender", new LengthFieldPrepender(4));
         pipeline.addLast(new StringDecoder(CharsetUtil.UTF_8));
         pipeline.addLast(new StringEncoder(CharsetUtil.UTF_8));
-        pipeline.addLast(new MyClientandler());
+        pipeline.addLast(new MyClientHandler());
     }
 
     @Override
@@ -51,7 +63,7 @@ class MyClientInitializer extends ChannelInitializer<SocketChannel> {
     }
 }
 
-class MyClientandler extends SimpleChannelInboundHandler<String> {
+class MyClientHandler extends SimpleChannelInboundHandler<String> {
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
