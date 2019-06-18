@@ -13,8 +13,8 @@ import io.netty.util.CharsetUtil;
 import java.net.URI;
 
 /**
- *@description:Netty入门级demo
- * ---------------------服务端----------------------
+ *@description:Netty入门级demo--http服务器
+ * ---------------------http服务端----------------------
  *@author Sjh
  *@date 2019/6/17 13:57
  *@version 1.0.1
