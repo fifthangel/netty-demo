@@ -1,6 +1,6 @@
 package com.todo.netty.demo4;
 
-import com.todo.protobuf.DataInfo;
+import com.todo.protobuf.MyDataInfo;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -62,7 +62,7 @@ class MyServerInitializer extends ChannelInitializer<SocketChannel> {
 
         //添加 protobuf 各个处理handler ----！！！！------
         pipeline.addLast(new ProtobufVarint32FrameDecoder());
-        pipeline.addLast(new ProtobufDecoder(DataInfo.Person.getDefaultInstance()));
+        pipeline.addLast(new ProtobufDecoder(MyDataInfo.MyMessage.getDefaultInstance()));
         pipeline.addLast(new ProtobufVarint32LengthFieldPrepender());
         pipeline.addLast(new ProtobufEncoder());
 
@@ -83,15 +83,12 @@ class MyServerInitializer extends ChannelInitializer<SocketChannel> {
 /**
  * 入站信息处理handler
  */
-class MyServerHandler extends SimpleChannelInboundHandler<DataInfo.Person> {
+class MyServerHandler extends SimpleChannelInboundHandler<MyDataInfo.MyMessage> {
 
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, DataInfo.Person person) throws Exception {
+    protected void channelRead0(ChannelHandlerContext ctx, MyDataInfo.MyMessage message) throws Exception {
 
-        System.out.println(person);
-        System.out.println(person.getName());
-        System.out.println(person.getAge());
-        System.out.println(person.getAddress());
+        System.out.println(message);
     }
 
     @Override

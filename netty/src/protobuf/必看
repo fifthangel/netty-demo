@@ -1,6 +1,7 @@
-
+//IDL :interface description language [protobuf ]
 //1.https://github.com/protocolbuffers/protobuf/releases/download/v3.3.0/protoc-3.3.0-win32.zip  下载
 //2.环境变量 (windows/linux/mac) ‘解压后的文件路径/protoc-3.3.0-win32’
 //3.protobuf idea插件安装
-//4.Person.proto 编码
+//4.Person.proto
 //5.然后执行命令  ：protoc --java_out=netty/src/main/java netty/src/protobuf/Student.proto
+                    代码生成位置:F:\study-todo\netty\src\main\java\com\todo\protobuf

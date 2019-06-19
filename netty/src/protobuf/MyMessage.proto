@@ -1,0 +1,41 @@
+syntax = "proto2";
+
+package com.todo.protobuf;
+
+option optimize_for = SPEED;
+option java_package = "com.todo.protobuf"; //可以跟上面 package 不一样
+option java_outer_classname = "MyDataInfo";
+
+//通信数据对象最外层
+message MyMessage {
+    //建立对象类型枚举
+    enum DataType {
+        PersonType = 1;
+        DogType = 2;
+        CatType = 3;
+    }
+
+    required DataType data_type=1;
+
+    //最多生成一个,节约内存
+    oneof dataBody {
+        Person person=2;
+        Dog dog =3;
+        Cat cat=4;
+    }
+}
+
+message Person {
+    required string name = 1;
+    optional int32 age = 2;
+    optional string address = 3;
+}
+
+message Dog {
+    required string name = 1;
+    optional int32 age = 2;
+}
+message Cat {
+    required string name = 1;
+    optional string city = 2;
+}
