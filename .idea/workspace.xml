@@ -4,21 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo2/MyNettyChatServer.java" line="107" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12ee089d-1b12-48f8-a928-5be56305dfb3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/MyNettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/MyNettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/MyNettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/MyNettyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/impl/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/impl/PersonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/protobuf/MyDataInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/protobuf/MyDataInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/protobuf/ProtoBufTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/protobuf/ProtoBufTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/DataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/thrift/DataException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/thrift/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/thrift/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/protobuf/MyMessage.proto" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/protobuf/MyMessage.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/protobuf/Person.proto" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/protobuf/Person.proto" afterDir="false" />
-    </list>
+    <list default="true" id="12ee089d-1b12-48f8-a928-5be56305dfb3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/netty/target/" />
@@ -31,10 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyThriftServer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyThriftServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="353">
               <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -46,13 +32,18 @@
       <file leaf-file-name="MyThriftClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="227">
+              <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="必看" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netty/src/protobuf/必看">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="data.thrift" pinned="false" current-in-tab="false">
@@ -130,7 +121,6 @@
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/MyNettyClient.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/MyNettyServer.java" />
         <option value="$PROJECT_DIR$/netty/src/protobuf/MyMessage.proto" />
-        <option value="$PROJECT_DIR$/netty/src/protobuf/必看" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/DataException.java" />
         <option value="$PROJECT_DIR$/netty/src/thrift/必看" />
         <option value="$PROJECT_DIR$/netty/pom.xml" />
@@ -140,6 +130,7 @@
         <option value="$PROJECT_DIR$/netty/src/thrift/data.thrift" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftClient.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftServer.java" />
+        <option value="$PROJECT_DIR$/netty/src/protobuf/必看" />
       </list>
     </option>
   </component>
@@ -429,7 +420,7 @@
       <workItem from="1560840237353" duration="7075000" />
       <workItem from="1560907134163" duration="6319000" />
       <workItem from="1560930158287" duration="7930000" />
-      <workItem from="1560992814965" duration="360000" />
+      <workItem from="1560992814965" duration="607000" />
     </task>
     <task id="LOCAL-00001" summary="netty demo 1：server 与 client 通信">
       <created>1560756971085</created>
@@ -473,18 +464,35 @@
       <option name="project" value="LOCAL" />
       <updated>1560942985264</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="netty demo 4\5： IDL --   protobuf \ thrift">
+      <created>1560993240060</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560993240061</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44793000" />
+    <option name="totallyTimeSpent" value="45040000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32925472" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -510,7 +518,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32925472" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,6 +632,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
           <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -696,6 +706,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -714,13 +727,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gen-java/thrift/generated/DataException.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/protobuf/必看">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/thrift/必看">
       <provider selected="true" editor-type-id="text-editor">
@@ -835,25 +841,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="353">
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/protobuf/必看">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
