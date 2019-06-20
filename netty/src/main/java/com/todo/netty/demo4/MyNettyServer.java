@@ -1,6 +1,6 @@
 package com.todo.netty.demo4;
 
-import com.todo.protobuf.MyDataInfo;
+import com.todo.netty.demo4.protobuf.MyDataInfo;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;

@@ -1,8 +1,8 @@
 package com.todo.netty.demo5.impl;
 
-import com.todo.thrift.DataException;
-import com.todo.thrift.Person;
-import com.todo.thrift.PersonService;
+import com.todo.netty.demo5.thrift.DataException;
+import com.todo.netty.demo5.thrift.Person;
+import com.todo.netty.demo5.thrift.PersonService;
 import org.apache.thrift.TException;
 
 /**

@@ -1,7 +1,7 @@
 package com.todo.netty.demo5;
 
-import com.todo.thrift.Person;
-import com.todo.thrift.PersonService;
+import com.todo.netty.demo5.thrift.Person;
+import com.todo.netty.demo5.thrift.PersonService;
 import org.apache.thrift.protocol.TCompactProtocol;
 import org.apache.thrift.protocol.TProtocol;
 import org.apache.thrift.transport.TFramedTransport;
@@ -21,7 +21,7 @@ public class MyThriftClient {
 
     public static void main(String[] args) {
 
-        //传输层对象：网络传输 
+        //传输层对象：网络传输
         TTransport transport = new TFramedTransport(new TSocket("localhost", 8899), 600);
         //协议层对象：二进制压缩协议
         TProtocol protocol = new TCompactProtocol(transport);

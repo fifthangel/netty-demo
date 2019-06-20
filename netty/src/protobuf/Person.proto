@@ -3,7 +3,7 @@ syntax="proto2";
 package com.todo.protobuf;
 
 option optimize_for=SPEED;
-option java_package="com.todo.protobuf";//可以跟上面 package 不一样
+option java_package="com.todo.netty.demo4.protobuf";//可以跟上面 package 不一样
 option java_outer_classname="MyDataInfo";
 
 message Person{
