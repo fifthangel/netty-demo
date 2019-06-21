@@ -1,6 +1,6 @@
-package com.todo.netty.demo6.grpc;
+package com.todo.grpc.demo6.grpc;
 
-import com.todo.netty.demo6.proto.*;
+import com.todo.grpc.demo6.proto.*;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.stub.StreamObserver;
@@ -25,7 +25,7 @@ public class GrpcClient {
         // StudentServiceGrpc.StudentServiceBlockingStub blockingStub = StudentServiceGrpc.newBlockingStub(managedChannel);
         //1.
 //        MyResponse myResponse = blockingStub.getRealNameByUserName(MyRequest.newBuilder().setUsername("zhangsan").build());
-//
+
 
         //2.
 //        System.out.println(myResponse.getRealname() + "--------------------------------------");
@@ -96,6 +96,5 @@ public class GrpcClient {
                 e.printStackTrace();
             }
         }
-
     }
 }

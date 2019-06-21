@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package com.todo.demo6.proto;
 
-option java_package = "com.todo.netty.demo6.proto"; //可以跟上面 package 不一样
+option java_package = "com.todo.grpc.demo6.proto"; //可以跟上面 package 不一样
 option java_outer_classname = "StudentProto";
 option java_multiple_files = true;
 

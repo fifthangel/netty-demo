@@ -1,7 +1,7 @@
-package com.todo.netty.demo6.grpc.impl;
+package com.todo.grpc.demo6.grpc.impl;
 
-import com.todo.netty.demo6.proto.*;
-import com.todo.netty.demo6.proto.StudentServiceGrpc.StudentServiceImplBase;
+import com.todo.grpc.demo6.proto.*;
+import com.todo.grpc.demo6.proto.StudentServiceGrpc.StudentServiceImplBase;
 import io.grpc.stub.StreamObserver;
 
 import java.util.UUID;

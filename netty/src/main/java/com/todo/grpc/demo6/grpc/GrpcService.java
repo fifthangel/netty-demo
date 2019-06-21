@@ -1,6 +1,6 @@
-package com.todo.netty.demo6.grpc;
+package com.todo.grpc.demo6.grpc;
 
-import com.todo.netty.demo6.grpc.impl.StudentServiceImpl;
+import com.todo.grpc.demo6.grpc.impl.StudentServiceImpl;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 
