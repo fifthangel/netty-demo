@@ -4,9 +4,38 @@
     <bookmark url="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo2/MyNettyChatServer.java" line="107" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12ee089d-1b12-48f8-a928-5be56305dfb3" name="Default" comment="netty demo 4\5： IDL --   protobuf \ thrift for java or python or others">
+    <list default="true" id="12ee089d-1b12-48f8-a928-5be56305dfb3" name="Default" comment="ignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/thrift/必看" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/thrift/必看" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/protobuf/MyDataInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/protobuf/MyDataInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/protobuf/必看" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/protobuf/必看" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo0/TestHttpServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo0/TestNettyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo0/TestServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo1/MyClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo1/MyClientInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo1/MyNettyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo1/MyNettyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo1/MyServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo1/MyServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo2/MyChatClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo2/MyChatClientInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo2/MyChatServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo2/MyChatServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo2/MyNettyChatClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo2/MyNettyChatServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo3/MyWebSocketChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo3/MyWebSocketServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo3/TextWebSocketFrameHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo4/MyClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo4/MyClientInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo4/MyNettyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo4/MyNettyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo4/MyServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo4/MyServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo5/MyThriftClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo5/MyThriftServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/todo/netty/demo5/impl/PersonServiceImpl.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,19 +48,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="data.thrift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/thrift/data.thrift">
+    <leaf>
+      <file leaf-file-name="GrpcService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/GrpcService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="44" selection-start-column="44" selection-end-column="44" />
+            <state relative-caret-position="343">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="必看" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/netty/src/thrift/必看">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/impl/StudentServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GrpcClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/GrpcClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -51,6 +102,8 @@
       <find>student2</find>
       <find>DataInfo</find>
       <find>dog</find>
+      <find>StudentServiceGrpc</find>
+      <find>service</find>
     </findStrings>
     <replaceStrings>
       <replace>Person</replace>
@@ -83,13 +136,11 @@
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo3/MyWebSocketServer.java" />
         <option value="$PROJECT_DIR$/netty/src/protobuf/Student.proto" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/protobuf/ProtoBufTest.java" />
-        <option value="$PROJECT_DIR$/netty/src/protobuf/Person.proto" />
         <option value="$PROJECT_DIR$/netty/src/protobuf/Request.proto" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/MyNettyClient.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/MyNettyServer.java" />
         <option value="$PROJECT_DIR$/netty/src/protobuf/MyMessage.proto" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/DataException.java" />
-        <option value="$PROJECT_DIR$/netty/pom.xml" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyNettyClient.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyNettyServer.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/impl/PersonServiceImpl.java" />
@@ -98,6 +149,23 @@
         <option value="$PROJECT_DIR$/netty/src/protobuf/必看" />
         <option value="$PROJECT_DIR$/netty/src/thrift/data.thrift" />
         <option value="$PROJECT_DIR$/netty/src/thrift/必看" />
+        <option value="$PROJECT_DIR$/netty/src/protobuf/Person.proto" />
+        <option value="$PROJECT_DIR$/netty/src/protobuf/People.proto" />
+        <option value="$PROJECT_DIR$/netty/src/main/proto/Stuent.proto" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/proto/MyRequestOrBuilder.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/proto/Student.proto" />
+        <option value="$PROJECT_DIR$/netty/src/main/proto/People2.proto" />
+        <option value="$PROJECT_DIR$/netty/src/main/proto/People.proto" />
+        <option value="$PROJECT_DIR$/netty/pom.xml" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/proto/MyResponse.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/proto/description.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/proto/必看" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/impl/StudenServiceImpl.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/impl/StudenServiceImpl.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/impl/GrpcService.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/GrpcClient.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/GrpcService.java" />
       </list>
     </option>
   </component>
@@ -117,17 +185,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="netty" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="netty" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -135,8 +193,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1852" />
-    <option name="y" value="24" />
+    <option name="x" value="-2" />
+    <option name="y" value="190" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -149,7 +207,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,12 +216,77 @@
             </path>
             <path>
               <item name="todo.all" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="study-todo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo.all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-todo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo.all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-todo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo.all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-todo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo.all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-todo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo.all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-todo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="demo6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo.all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-todo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="demo6" type="462c0819:PsiDirectoryNode" />
+              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo.all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-todo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="demo6" type="462c0819:PsiDirectoryNode" />
+              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -184,12 +306,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.todo.netty.demo6" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\study-todo\netty\src\main\java\com\todo\netty\demo5" />
-      <recent name="F:\study-todo\netty\src\main\java\com\todo\thrift" />
-      <recent name="F:\study-todo\netty\src\thrift" />
+      <recent name="F:\study-todo\netty\src\main\proto" />
+      <recent name="F:\study-todo\netty\src\main\java\com\todo\netty\demo6\proto" />
+      <recent name="F:\study-todo\netty\src\main\java" />
       <recent name="F:\study-todo\netty\src\protobuf" />
-      <recent name="F:\study-todo\netty\src\main\java\com\todo\netty\demo4" />
+      <recent name="F:\study-todo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\study-todo\netty\src\main\proto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -204,20 +332,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyThriftClient">
-    <configuration name="MyNettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.todo.netty.demo4.MyNettyClient" />
+  <component name="RunManager" selected="Application.GrpcService">
+    <configuration name="GrpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.todo.netty.demo6.grpc.GrpcClient" />
       <module name="netty" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.todo.netty.demo4.*" />
+          <option name="PATTERN" value="com.todo.netty.demo6.grpc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MyNettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.todo.netty.demo4.MyNettyServer" />
+    <configuration name="GrpcService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.todo.netty.demo6.grpc.GrpcService" />
+      <module name="netty" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.todo.netty.demo6.grpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MyNettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.todo.netty.demo4.MyNettyClient" />
       <module name="netty" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -245,17 +384,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.todo.netty.demo5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ProtoBufTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.todo.netty.demo4.protobuf.ProtoBufTest" />
-      <module name="netty" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.todo.netty.demo4.protobuf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,19 +430,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ProtoBufTest" />
-      <item itemvalue="Application.MyNettyServer" />
       <item itemvalue="Application.MyNettyClient" />
       <item itemvalue="Application.MyThriftServer" />
       <item itemvalue="Application.MyThriftClient" />
+      <item itemvalue="Application.GrpcService" />
+      <item itemvalue="Application.GrpcClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GrpcService" />
+        <item itemvalue="Application.GrpcClient" />
         <item itemvalue="Application.MyThriftClient" />
         <item itemvalue="Application.MyThriftServer" />
         <item itemvalue="Application.MyNettyClient" />
-        <item itemvalue="Application.MyNettyServer" />
-        <item itemvalue="Application.ProtoBufTest" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +464,8 @@
       <workItem from="1560840237353" duration="7075000" />
       <workItem from="1560907134163" duration="6319000" />
       <workItem from="1560930158287" duration="7930000" />
-      <workItem from="1560992814965" duration="1149000" />
+      <workItem from="1560992814965" duration="5843000" />
+      <workItem from="1561015173227" duration="7156000" />
     </task>
     <task id="LOCAL-00001" summary="netty demo 1：server 与 client 通信">
       <created>1560756971085</created>
@@ -408,11 +537,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560993933973</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="netty demo  5： thrift for java or python or others">
+      <created>1560994002209</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560994002209</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ignore">
+      <created>1560994284508</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560994284508</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45582000" />
+    <option name="totallyTimeSpent" value="57432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,7 +567,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -437,11 +580,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.16257995" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32703003" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32703003" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32925472" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -449,7 +592,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39599556" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34816462" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.18550107" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -470,7 +613,9 @@
     <MESSAGE value="netty demo 4： netty 网络数据传输 -- google protobuf" />
     <MESSAGE value="netty demo 4\5： IDL --   protobuf \ thrift" />
     <MESSAGE value="netty demo 4\5： IDL --   protobuf \ thrift for java or python or others" />
-    <option name="LAST_COMMIT_MESSAGE" value="netty demo 4\5： IDL --   protobuf \ thrift for java or python or others" />
+    <MESSAGE value="netty demo  5： thrift for java or python or others" />
+    <MESSAGE value="ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -478,217 +623,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final.jar!/io/netty/channel/AbstractChannel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final.jar!/io/netty/handler/codec/http2/Http2MultiplexCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="120" column="48" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final.jar!/io/netty/channel/Channel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final.jar!/io/netty/channel/DefaultChannelPipeline.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="202" column="26" selection-start-line="202" selection-start-column="26" selection-end-line="202" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final.jar!/io/netty/channel/ChannelOutboundInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final.jar!/io/netty/handler/codec/string/StringDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="226" column="38" selection-start-line="226" selection-start-column="16" selection-end-line="226" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com.todo.netty/demo1/MyNettyClient.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com.todo.netty/demo1/TestNettyServer.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com.todo.netty/demo1/MyNettyServer.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/webapp/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="75" column="86" selection-start-line="75" selection-start-column="72" selection-end-line="75" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo1/MyNettyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo1/MyNettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo2/MyNettyChatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo3/MyWebSocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/handler/codec/http2/Http2MultiplexCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="598" column="31" selection-start-line="598" selection-start-column="31" selection-end-line="598" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="180" column="26" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/protobuf/ProtoBufTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/protobuf/Person.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/protobuf/DataInfo.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo0/TestNettyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/MyNettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo4/MyNettyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/protobuf/MyMessage.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen-java/thrift/generated/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen-java/thrift/generated/DataException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/thrift/DataException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo2/MyNettyChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyNettyClient.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar!/org/apache/thrift/server/TServer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -735,9 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,13 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="29" column="41" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/protobuf/必看">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -800,6 +724,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gen-java/thrift/generated/Person.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen-py/py/thrift/generated/PersonService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2223" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/thrift/必看">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/thrift/data.thrift">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -807,22 +753,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen-java/thrift/generated/Person.java">
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/protobuf/StudentProto.java" />
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/protobuf/MyResponseOrBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/protobuf/MyResponse.java" />
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/protobuf/MyRequestOrBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/protobuf/MyRequest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/proto/People.proto" />
+    <entry file="file://$PROJECT_DIR$/netty/target/generated-sources/protobuf/java/com/todo/netty/demo6/proto/MyResponse.java" />
+    <entry file="file://$PROJECT_DIR$/netty/target/generated-sources/protobuf/java/com/todo/netty/demo6/proto/MyRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/protobuf/Person.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/target/protoc-dependencies/c2fe006464384bf877c448acd19686c9/google/protobuf/compiler/plugin.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2977#4301#0" />
+            <element signature="e#4368#8198#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen-py/py/thrift/generated/PersonService.py">
+    <entry file="file://$PROJECT_DIR$/netty/target/generated-sources/protobuf/java/com/todo/netty/demo6/proto/People2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2223" />
+        <state relative-caret-position="76">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/thrift/必看">
+    <entry file="file://$PROJECT_DIR$/netty/target/generated-sources/protobuf/java/com/todo/netty/demo6/proto/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/proto/People2.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/target/generated-sources/protobuf/java/com/todo/netty/demo6/proto/StudentProto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="37" column="68" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/proto/People.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/proto/MyResponseOrBuilder.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/proto/MyRequest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/proto/StudentProto.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/proto/MyRequestOrBuilder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/proto/MyResponse.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="93" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/proto/description.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/proto/必看">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/protobuf/必看">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo2/MyNettyChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="86" column="36" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/impl/GrpcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/grpc/grpc-core/1.4.0/grpc-core-1.4.0.jar!/io/grpc/ManagedChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/grpc/grpc-core/1.4.0/grpc-core-1.4.0-sources.jar!/io/grpc/ManagedChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/proto/StudentServiceGrpc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/GrpcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/GrpcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -881,7 +993,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
