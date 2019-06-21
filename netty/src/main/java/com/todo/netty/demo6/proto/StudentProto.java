@@ -24,6 +24,31 @@ public final class StudentProto {
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_com_todo_demo6_proto_MyResponse_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_com_todo_demo6_proto_StudentRequest_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_com_todo_demo6_proto_StudentRequest_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_com_todo_demo6_proto_StudentResponse_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_com_todo_demo6_proto_StudentResponse_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_com_todo_demo6_proto_StudentResponseList_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_com_todo_demo6_proto_StudentResponseList_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_com_todo_demo6_proto_StreamRequest_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_com_todo_demo6_proto_StreamRequest_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_com_todo_demo6_proto_StreamResponse_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_com_todo_demo6_proto_StreamResponse_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -35,11 +60,25 @@ public final class StudentProto {
     String[] descriptorData = {
       "\n\014People.proto\022\024com.todo.demo6.proto\"\035\n\t" +
       "MyRequest\022\020\n\010username\030\001 \001(\t\"\036\n\nMyRespons" +
-      "e\022\020\n\010realname\030\002 \001(\t2n\n\016StudentService\022\\\n" +
-      "\025getRealNameByUserName\022\037.com.todo.demo6." +
-      "proto.MyRequest\032 .com.todo.demo6.proto.M" +
-      "yResponse\"\000B,\n\032com.todo.netty.demo6.prot" +
-      "oB\014StudentProtoP\001b\006proto3"
+      "e\022\020\n\010realname\030\002 \001(\t\"\035\n\016StudentRequest\022\013\n" +
+      "\003age\030\001 \001(\005\":\n\017StudentResponse\022\014\n\004name\030\001 " +
+      "\001(\t\022\013\n\003age\030\002 \001(\005\022\014\n\004city\030\003 \001(\t\"U\n\023Studen" +
+      "tResponseList\022>\n\017studentResponse\030\001 \003(\0132%" +
+      ".com.todo.demo6.proto.StudentResponse\"%\n" +
+      "\rStreamRequest\022\024\n\014request_info\030\001 \001(\t\"\'\n\016" +
+      "StreamResponse\022\025\n\rresponse_info\030\001 \001(\t2\236\003" +
+      "\n\016StudentService\022\\\n\025getRealNameByUserNam",
+      "e\022\037.com.todo.demo6.proto.MyRequest\032 .com" +
+      ".todo.demo6.proto.MyResponse\"\000\022c\n\020getStu" +
+      "dentsByAge\022$.com.todo.demo6.proto.Studen" +
+      "tRequest\032%.com.todo.demo6.proto.StudentR" +
+      "esponse\"\0000\001\022n\n\027getStudentsWrapperByAge\022$" +
+      ".com.todo.demo6.proto.StudentRequest\032).c" +
+      "om.todo.demo6.proto.StudentResponseList\"" +
+      "\000(\001\022Y\n\006BiTalk\022#.com.todo.demo6.proto.Str" +
+      "eamRequest\032$.com.todo.demo6.proto.Stream" +
+      "Response\"\000(\0010\001B,\n\032com.todo.netty.demo6.p",
+      "rotoB\014StudentProtoP\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -65,6 +104,36 @@ public final class StudentProto {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_com_todo_demo6_proto_MyResponse_descriptor,
         new String[] { "Realname", });
+    internal_static_com_todo_demo6_proto_StudentRequest_descriptor =
+      getDescriptor().getMessageTypes().get(2);
+    internal_static_com_todo_demo6_proto_StudentRequest_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_com_todo_demo6_proto_StudentRequest_descriptor,
+        new String[] { "Age", });
+    internal_static_com_todo_demo6_proto_StudentResponse_descriptor =
+      getDescriptor().getMessageTypes().get(3);
+    internal_static_com_todo_demo6_proto_StudentResponse_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_com_todo_demo6_proto_StudentResponse_descriptor,
+        new String[] { "Name", "Age", "City", });
+    internal_static_com_todo_demo6_proto_StudentResponseList_descriptor =
+      getDescriptor().getMessageTypes().get(4);
+    internal_static_com_todo_demo6_proto_StudentResponseList_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_com_todo_demo6_proto_StudentResponseList_descriptor,
+        new String[] { "StudentResponse", });
+    internal_static_com_todo_demo6_proto_StreamRequest_descriptor =
+      getDescriptor().getMessageTypes().get(5);
+    internal_static_com_todo_demo6_proto_StreamRequest_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_com_todo_demo6_proto_StreamRequest_descriptor,
+        new String[] { "RequestInfo", });
+    internal_static_com_todo_demo6_proto_StreamResponse_descriptor =
+      getDescriptor().getMessageTypes().get(6);
+    internal_static_com_todo_demo6_proto_StreamResponse_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_com_todo_demo6_proto_StreamResponse_descriptor,
+        new String[] { "ResponseInfo", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

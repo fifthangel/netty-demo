@@ -44,13 +44,14 @@ public class GrpcService {
     private void stop() {
         if (null != this.server) {
             this.server.shutdown();
+
         }
     }
 
     //需要阻塞住
     private void awaitTermination() throws Exception {
         if (null != this.server) {
-            this.server.awaitTermination(3000,TimeUnit.MICROSECONDS);
+            this.server.awaitTermination();
         }
     }
 }
