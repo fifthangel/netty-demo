@@ -4,11 +4,11 @@
 package com.todo.grpc.demo6.proto;
 
 /**
- * Protobuf type {@code com.todo.demo6.proto.StudentResponse}
+ * Protobuf type {@code com.todo.grpc.demo6.proto.StudentResponse}
  */
 public  final class StudentResponse extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.todo.demo6.proto.StudentResponse)
+    // @@protoc_insertion_point(message_implements:com.todo.grpc.demo6.proto.StudentResponse)
     StudentResponseOrBuilder {
   // Use StudentResponse.newBuilder() to construct.
   private StudentResponse(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
@@ -75,12 +75,12 @@ public  final class StudentResponse extends
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StudentResponse_descriptor;
+    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StudentResponse_descriptor;
   }
 
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StudentResponse_fieldAccessorTable
+    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StudentResponse_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.todo.grpc.demo6.proto.StudentResponse.class, com.todo.grpc.demo6.proto.StudentResponse.Builder.class);
   }
@@ -332,20 +332,20 @@ public  final class StudentResponse extends
     return builder;
   }
   /**
-   * Protobuf type {@code com.todo.demo6.proto.StudentResponse}
+   * Protobuf type {@code com.todo.grpc.demo6.proto.StudentResponse}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.todo.demo6.proto.StudentResponse)
+      // @@protoc_insertion_point(builder_implements:com.todo.grpc.demo6.proto.StudentResponse)
       com.todo.grpc.demo6.proto.StudentResponseOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StudentResponse_descriptor;
+      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StudentResponse_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StudentResponse_fieldAccessorTable
+      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StudentResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.todo.grpc.demo6.proto.StudentResponse.class, com.todo.grpc.demo6.proto.StudentResponse.Builder.class);
     }
@@ -378,7 +378,7 @@ public  final class StudentResponse extends
 
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StudentResponse_descriptor;
+      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StudentResponse_descriptor;
     }
 
     public com.todo.grpc.demo6.proto.StudentResponse getDefaultInstanceForType() {
@@ -650,10 +650,10 @@ public  final class StudentResponse extends
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.todo.demo6.proto.StudentResponse)
+    // @@protoc_insertion_point(builder_scope:com.todo.grpc.demo6.proto.StudentResponse)
   }
 
-  // @@protoc_insertion_point(class_scope:com.todo.demo6.proto.StudentResponse)
+  // @@protoc_insertion_point(class_scope:com.todo.grpc.demo6.proto.StudentResponse)
   private static final com.todo.grpc.demo6.proto.StudentResponse DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.todo.grpc.demo6.proto.StudentResponse();

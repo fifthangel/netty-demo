@@ -2,8 +2,10 @@ gRpc + protobuf
 
         1.https://github.com/protocolbuffers/protobuf/releases/download/v3.3.0/protoc-3.3.0-win32.zip  下载
         2.环境变量 (windows/linux/mac) ‘解压后的文件路径/protoc-3.3.0-win32’
+          复制到项目:~/netty-demo/netty/protoc-3.3.0-win32(也可以不上传到项目里)
         3.protobuf idea/eclipse 插件安装
         4.建立目录+文件 （固定位置）：src/main/proto/People.proto
         5.gRpc maven 配置 https://blog.csdn.net/lyjshen/article/details/52238234
-        6.maven->plugins->protobuf->compile->compile-custom
-          代码生成位置:target下
+        6.配置生成代码路径：People.proto:java_package = "com.todo.grpc.demo6.proto" ,参考： https://www.cnblogs.com/empireghost/p/8677141.html
+        7.maven->plugins->protobuf->compile->compile-custom
+

@@ -4,11 +4,11 @@
 package com.todo.grpc.demo6.proto;
 
 /**
- * Protobuf type {@code com.todo.demo6.proto.StreamRequest}
+ * Protobuf type {@code com.todo.grpc.demo6.proto.StreamRequest}
  */
 public  final class StreamRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.todo.demo6.proto.StreamRequest)
+    // @@protoc_insertion_point(message_implements:com.todo.grpc.demo6.proto.StreamRequest)
     StreamRequestOrBuilder {
   // Use StreamRequest.newBuilder() to construct.
   private StreamRequest(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
@@ -62,12 +62,12 @@ public  final class StreamRequest extends
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StreamRequest_descriptor;
+    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StreamRequest_descriptor;
   }
 
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StreamRequest_fieldAccessorTable
+    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StreamRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.todo.grpc.demo6.proto.StreamRequest.class, com.todo.grpc.demo6.proto.StreamRequest.Builder.class);
   }
@@ -255,20 +255,20 @@ public  final class StreamRequest extends
     return builder;
   }
   /**
-   * Protobuf type {@code com.todo.demo6.proto.StreamRequest}
+   * Protobuf type {@code com.todo.grpc.demo6.proto.StreamRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.todo.demo6.proto.StreamRequest)
+      // @@protoc_insertion_point(builder_implements:com.todo.grpc.demo6.proto.StreamRequest)
       com.todo.grpc.demo6.proto.StreamRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StreamRequest_descriptor;
+      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StreamRequest_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StreamRequest_fieldAccessorTable
+      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StreamRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.todo.grpc.demo6.proto.StreamRequest.class, com.todo.grpc.demo6.proto.StreamRequest.Builder.class);
     }
@@ -297,7 +297,7 @@ public  final class StreamRequest extends
 
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StreamRequest_descriptor;
+      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StreamRequest_descriptor;
     }
 
     public com.todo.grpc.demo6.proto.StreamRequest getDefaultInstanceForType() {
@@ -465,10 +465,10 @@ public  final class StreamRequest extends
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.todo.demo6.proto.StreamRequest)
+    // @@protoc_insertion_point(builder_scope:com.todo.grpc.demo6.proto.StreamRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:com.todo.demo6.proto.StreamRequest)
+  // @@protoc_insertion_point(class_scope:com.todo.grpc.demo6.proto.StreamRequest)
   private static final com.todo.grpc.demo6.proto.StreamRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.todo.grpc.demo6.proto.StreamRequest();

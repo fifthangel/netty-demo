@@ -4,7 +4,7 @@
 package com.todo.grpc.demo6.proto;
 
 public interface StreamRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.todo.demo6.proto.StreamRequest)
+    // @@protoc_insertion_point(interface_extends:com.todo.grpc.demo6.proto.StreamRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

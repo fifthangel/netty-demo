@@ -4,11 +4,11 @@
 package com.todo.grpc.demo6.proto;
 
 /**
- * Protobuf type {@code com.todo.demo6.proto.MyResponse}
+ * Protobuf type {@code com.todo.grpc.demo6.proto.MyResponse}
  */
 public  final class MyResponse extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.todo.demo6.proto.MyResponse)
+    // @@protoc_insertion_point(message_implements:com.todo.grpc.demo6.proto.MyResponse)
     MyResponseOrBuilder {
   // Use MyResponse.newBuilder() to construct.
   private MyResponse(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
@@ -62,12 +62,12 @@ public  final class MyResponse extends
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_MyResponse_descriptor;
+    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_MyResponse_descriptor;
   }
 
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_MyResponse_fieldAccessorTable
+    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_MyResponse_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.todo.grpc.demo6.proto.MyResponse.class, com.todo.grpc.demo6.proto.MyResponse.Builder.class);
   }
@@ -255,20 +255,20 @@ public  final class MyResponse extends
     return builder;
   }
   /**
-   * Protobuf type {@code com.todo.demo6.proto.MyResponse}
+   * Protobuf type {@code com.todo.grpc.demo6.proto.MyResponse}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.todo.demo6.proto.MyResponse)
+      // @@protoc_insertion_point(builder_implements:com.todo.grpc.demo6.proto.MyResponse)
       com.todo.grpc.demo6.proto.MyResponseOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_MyResponse_descriptor;
+      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_MyResponse_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_MyResponse_fieldAccessorTable
+      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_MyResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.todo.grpc.demo6.proto.MyResponse.class, com.todo.grpc.demo6.proto.MyResponse.Builder.class);
     }
@@ -297,7 +297,7 @@ public  final class MyResponse extends
 
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_MyResponse_descriptor;
+      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_MyResponse_descriptor;
     }
 
     public com.todo.grpc.demo6.proto.MyResponse getDefaultInstanceForType() {
@@ -465,10 +465,10 @@ public  final class MyResponse extends
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.todo.demo6.proto.MyResponse)
+    // @@protoc_insertion_point(builder_scope:com.todo.grpc.demo6.proto.MyResponse)
   }
 
-  // @@protoc_insertion_point(class_scope:com.todo.demo6.proto.MyResponse)
+  // @@protoc_insertion_point(class_scope:com.todo.grpc.demo6.proto.MyResponse)
   private static final com.todo.grpc.demo6.proto.MyResponse DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.todo.grpc.demo6.proto.MyResponse();

@@ -4,29 +4,29 @@
 package com.todo.grpc.demo6.proto;
 
 public interface StudentResponseListOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.todo.demo6.proto.StudentResponseList)
+    // @@protoc_insertion_point(interface_extends:com.todo.grpc.demo6.proto.StudentResponseList)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .com.todo.demo6.proto.StudentResponse studentResponse = 1;</code>
+   * <code>repeated .com.todo.grpc.demo6.proto.StudentResponse studentResponse = 1;</code>
    */
   java.util.List<com.todo.grpc.demo6.proto.StudentResponse> 
       getStudentResponseList();
   /**
-   * <code>repeated .com.todo.demo6.proto.StudentResponse studentResponse = 1;</code>
+   * <code>repeated .com.todo.grpc.demo6.proto.StudentResponse studentResponse = 1;</code>
    */
   com.todo.grpc.demo6.proto.StudentResponse getStudentResponse(int index);
   /**
-   * <code>repeated .com.todo.demo6.proto.StudentResponse studentResponse = 1;</code>
+   * <code>repeated .com.todo.grpc.demo6.proto.StudentResponse studentResponse = 1;</code>
    */
   int getStudentResponseCount();
   /**
-   * <code>repeated .com.todo.demo6.proto.StudentResponse studentResponse = 1;</code>
+   * <code>repeated .com.todo.grpc.demo6.proto.StudentResponse studentResponse = 1;</code>
    */
   java.util.List<? extends com.todo.grpc.demo6.proto.StudentResponseOrBuilder> 
       getStudentResponseOrBuilderList();
   /**
-   * <code>repeated .com.todo.demo6.proto.StudentResponse studentResponse = 1;</code>
+   * <code>repeated .com.todo.grpc.demo6.proto.StudentResponse studentResponse = 1;</code>
    */
   com.todo.grpc.demo6.proto.StudentResponseOrBuilder getStudentResponseOrBuilder(
       int index);

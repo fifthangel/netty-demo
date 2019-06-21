@@ -4,11 +4,11 @@
 package com.todo.grpc.demo6.proto;
 
 /**
- * Protobuf type {@code com.todo.demo6.proto.StudentRequest}
+ * Protobuf type {@code com.todo.grpc.demo6.proto.StudentRequest}
  */
 public  final class StudentRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.todo.demo6.proto.StudentRequest)
+    // @@protoc_insertion_point(message_implements:com.todo.grpc.demo6.proto.StudentRequest)
     StudentRequestOrBuilder {
   // Use StudentRequest.newBuilder() to construct.
   private StudentRequest(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
@@ -61,12 +61,12 @@ public  final class StudentRequest extends
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StudentRequest_descriptor;
+    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StudentRequest_descriptor;
   }
 
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StudentRequest_fieldAccessorTable
+    return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StudentRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.todo.grpc.demo6.proto.StudentRequest.class, com.todo.grpc.demo6.proto.StudentRequest.Builder.class);
   }
@@ -230,20 +230,20 @@ public  final class StudentRequest extends
     return builder;
   }
   /**
-   * Protobuf type {@code com.todo.demo6.proto.StudentRequest}
+   * Protobuf type {@code com.todo.grpc.demo6.proto.StudentRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.todo.demo6.proto.StudentRequest)
+      // @@protoc_insertion_point(builder_implements:com.todo.grpc.demo6.proto.StudentRequest)
       com.todo.grpc.demo6.proto.StudentRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StudentRequest_descriptor;
+      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StudentRequest_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StudentRequest_fieldAccessorTable
+      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StudentRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.todo.grpc.demo6.proto.StudentRequest.class, com.todo.grpc.demo6.proto.StudentRequest.Builder.class);
     }
@@ -272,7 +272,7 @@ public  final class StudentRequest extends
 
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_demo6_proto_StudentRequest_descriptor;
+      return com.todo.grpc.demo6.proto.StudentProto.internal_static_com_todo_grpc_demo6_proto_StudentRequest_descriptor;
     }
 
     public com.todo.grpc.demo6.proto.StudentRequest getDefaultInstanceForType() {
@@ -396,10 +396,10 @@ public  final class StudentRequest extends
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.todo.demo6.proto.StudentRequest)
+    // @@protoc_insertion_point(builder_scope:com.todo.grpc.demo6.proto.StudentRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:com.todo.demo6.proto.StudentRequest)
+  // @@protoc_insertion_point(class_scope:com.todo.grpc.demo6.proto.StudentRequest)
   private static final com.todo.grpc.demo6.proto.StudentRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.todo.grpc.demo6.proto.StudentRequest();

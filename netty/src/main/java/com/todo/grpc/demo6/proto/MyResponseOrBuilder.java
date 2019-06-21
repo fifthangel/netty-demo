@@ -4,7 +4,7 @@
 package com.todo.grpc.demo6.proto;
 
 public interface MyResponseOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.todo.demo6.proto.MyResponse)
+    // @@protoc_insertion_point(interface_extends:com.todo.grpc.demo6.proto.MyResponse)
     com.google.protobuf.MessageOrBuilder {
 
   /**
