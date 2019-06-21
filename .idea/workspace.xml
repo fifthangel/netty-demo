@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12ee089d-1b12-48f8-a928-5be56305dfb3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/MyThriftServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/impl/PersonServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/thrift/DataException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/thrift/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo5/thrift/PersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/MyThriftClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/MyThriftClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/MyThriftServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/MyThriftServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/impl/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/impl/PersonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/DataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/DataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/PersonService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,18 +36,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GrpcClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GrpcClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/grpc/demo6/grpc/GrpcClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+            <state relative-caret-position="219">
+              <caret line="85" column="39" lean-forward="true" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2950#2951#0" expanded="true" />
                 <element signature="e#3002#3003#0" expanded="true" />
-                <element signature="e#3250#3251#0" expanded="true" />
                 <element signature="e#3302#3303#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/impl/PersonServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/PersonService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/DataException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyThriftServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/MyThriftServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyThriftClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/MyThriftClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -71,11 +124,13 @@
       <find>dog</find>
       <find>StudentServiceGrpc</find>
       <find>service</find>
+      <find>package com.todo.com.todo.thrift.demo5.thrift;</find>
     </findStrings>
     <replaceStrings>
       <replace>Person</replace>
       <replace>person2</replace>
       <replace>MyDataInfo</replace>
+      <replace>package com.todo.thrift.demo5;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -89,10 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/netty/src/main/java/com.todo.netty/TestServer.java" />
-        <option value="$PROJECT_DIR$/netty/src/main/java/com.todo.netty/TestNettyServer.java" />
-        <option value="$PROJECT_DIR$/netty/src/main/java/com.todo.netty/MyNettyServer.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com.todo.netty/MyNettyClient.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo2/MyNettyChatClient.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo2/MyNettyChatServer.java" />
@@ -138,6 +189,12 @@
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/netty/demo6/grpc/GrpcClient.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/grpc/demo6/grpc/GrpcClient.java" />
         <option value="$PROJECT_DIR$/netty/pom.xml" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/MyThriftServer.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/Person.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/DataException.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/PersonService.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/impl/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/MyThriftClient.java" />
       </list>
     </option>
   </component>
@@ -249,7 +306,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="todo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo6" type="462c0819:PsiDirectoryNode" />
+              <item name="demo5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="todo.all" type="b2602c69:ProjectViewProjectNode" />
@@ -259,8 +316,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="todo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+              <item name="demo5" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo.all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-todo" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo5" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,7 +348,7 @@
     <property name="last_opened_file_path" value="E:/ZQ_project/new-retail/matrix-distributed-framework" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34994912" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -449,7 +517,7 @@
       <workItem from="1560930158287" duration="7930000" />
       <workItem from="1560992814965" duration="5843000" />
       <workItem from="1561015173227" duration="7156000" />
-      <workItem from="1561079916238" duration="5323000" />
+      <workItem from="1561079916238" duration="5545000" />
     </task>
     <task id="LOCAL-00001" summary="netty demo 1：server 与 client 通信">
       <created>1560756971085</created>
@@ -556,11 +624,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561087186837</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="demo 6 :grpc +protobuf + maven">
+      <created>1561087304143</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561087304143</updated>
+    </task>
+    <task id="LOCAL-00017" summary="demo 6 :grpc +protobuf + maven">
+      <created>1561087331585</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1561087331585</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62755000" />
+    <option name="totallyTimeSpent" value="62977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,6 +655,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
@@ -628,45 +711,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/protobuf/demo4/protobuf/MyDataInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/com/todo/thrift/demo5/MyThriftClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/com/todo/thrift/demo5/MyThriftServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen-java/thrift/generated/Person.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen-py/py/thrift/generated/PersonService.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2223" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/thrift/必看">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -842,15 +886,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/grpc/demo6/grpc/GrpcClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        <state relative-caret-position="219">
+          <caret line="85" column="39" lean-forward="true" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2950#2951#0" expanded="true" />
             <element signature="e#3002#3003#0" expanded="true" />
-            <element signature="e#3250#3251#0" expanded="true" />
             <element signature="e#3302#3303#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/MyThriftServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/DataException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/thrift/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/impl/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/todo/thrift/demo5/MyThriftClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -906,11 +991,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>netty</last-edited>
+          <last-edited>study-todo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34994912" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -922,7 +1008,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.34994912" />
               </list>
             </option>
           </splitter-proportions>

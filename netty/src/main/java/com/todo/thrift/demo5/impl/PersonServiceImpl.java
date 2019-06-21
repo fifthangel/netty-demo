@@ -1,8 +1,8 @@
-package com.todo.com.todo.thrift.demo5.impl;
+package com.todo.thrift.demo5.impl;
 
-import com.todo.com.todo.thrift.demo5.thrift.DataException;
-import com.todo.com.todo.thrift.demo5.thrift.Person;
-import com.todo.com.todo.thrift.demo5.thrift.PersonService;
+import com.todo.thrift.demo5.thrift.DataException;
+import com.todo.thrift.demo5.thrift.Person;
+import com.todo.thrift.demo5.thrift.PersonService;
 import org.apache.thrift.TException;
 
 /**

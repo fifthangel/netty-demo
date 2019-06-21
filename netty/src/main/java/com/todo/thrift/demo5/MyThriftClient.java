@@ -1,7 +1,7 @@
-package com.todo.com.todo.thrift.demo5;
+package com.todo.thrift.demo5;
 
-import com.todo.com.todo.thrift.demo5.thrift.Person;
-import com.todo.com.todo.thrift.demo5.thrift.PersonService;
+import com.todo.thrift.demo5.thrift.Person;
+import com.todo.thrift.demo5.thrift.PersonService;
 import org.apache.thrift.protocol.TCompactProtocol;
 import org.apache.thrift.protocol.TProtocol;
 import org.apache.thrift.transport.TFramedTransport;
