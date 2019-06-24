@@ -1,11 +1,10 @@
-package com.todo.grpc.demo6.grpc;
+package com.todo.grpc.demo6;
 
-import com.todo.grpc.demo6.grpc.impl.StudentServiceImpl;
+import com.todo.grpc.demo6.impl.StudentServiceImpl;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 
 /**
  *@description:Rpc Server  服务端

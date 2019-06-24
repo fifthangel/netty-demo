@@ -1,4 +1,4 @@
-package com.todo.grpc.demo6.grpc;
+package com.todo.grpc.demo6;
 
 import com.todo.grpc.demo6.proto.*;
 import io.grpc.ManagedChannel;

@@ -1,4 +1,4 @@
-package com.todo.grpc.demo6.grpc.impl;
+package com.todo.grpc.demo6.impl;
 
 import com.todo.grpc.demo6.proto.*;
 import com.todo.grpc.demo6.proto.StudentServiceGrpc.StudentServiceImplBase;
