@@ -6,7 +6,7 @@ import java.nio.channels.FileChannel;
 
 
 /**
- *@description:文件输入流
+ *@description:Nioo test input stream
  *
  *@author Sjh
  *@date 2019/6/24 15:06
