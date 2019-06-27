@@ -1,0 +1,13 @@
+IDL :interface description language [ thrift ]
+1.http://mirrors.tuna.tsinghua.edu.cn/apache/thrift/0.12.0/thrift-0.12.0.exe  下载
+2.环境变量 (windows/linux/mac) ‘解压后的文件路径/Thrift’教程: https://blog.csdn.net/liulongling/article/details/51886626
+3.thrift idea插件安装
+4.data.thrift
+5.然后执行命令  ：thrift --gen java netty/src/thrift/data.thrift
+                    生成的Java  代码在 study-todo\gen-java
+
+                    thrift --gen py netty/src/thrift/data.thrift
+                    生成的Python代码在 study-todo\gen-py
+
+
+git subtree 实现跨语言仓库

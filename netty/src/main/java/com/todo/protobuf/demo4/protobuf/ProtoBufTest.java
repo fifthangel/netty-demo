@@ -1,4 +1,4 @@
-package com.todo.protobuf;
+package com.todo.protobuf.demo4.protobuf;
 
 /**
  *@description:protobuf 为Rpc 【跨语言】提供【文件序列化反序列化】网络传输 核心代码
@@ -13,13 +13,13 @@ public class ProtoBufTest {
     public static void main(String[] args) throws Exception {
 
         //builder
-        DataInfo.Person Person = DataInfo.Person.newBuilder().setName("Zahng san")
+        MyDataInfo.Person Person = MyDataInfo.Person.newBuilder().setName("Zahng san")
                                                                 .setAge(20)
                                                                 .setAddress("北京").build();
         //转换
         byte[] student2ByteArray = Person.toByteArray();
 
-        DataInfo.Person person2 = DataInfo.Person.parseFrom(student2ByteArray);
+        MyDataInfo.Person person2 = MyDataInfo.Person.parseFrom(student2ByteArray);
 
         System.out.println(person2);
         System.out.println(person2.getName());

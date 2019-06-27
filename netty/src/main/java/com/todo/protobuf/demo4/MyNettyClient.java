@@ -1,20 +1,17 @@
-package com.todo.netty.demo4;
+package com.todo.protobuf.demo4;
 
-import com.todo.protobuf.DataInfo;
+import com.todo.protobuf.demo4.protobuf.MyDataInfo;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
-import io.netty.handler.codec.LengthFieldPrepender;
 import io.netty.handler.codec.protobuf.ProtobufDecoder;
 import io.netty.handler.codec.protobuf.ProtobufEncoder;
 import io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder;
 import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
-import io.netty.handler.codec.string.StringDecoder;
-import io.netty.handler.codec.string.StringEncoder;
-import io.netty.util.CharsetUtil;
+
+import java.util.Random;
 
 /**
  *@description:客户端
@@ -58,7 +55,7 @@ class MyClientInitializer extends ChannelInitializer<SocketChannel> {
 
         //添加 protobuf 各个处理handler
         pipeline.addLast(new ProtobufVarint32FrameDecoder());
-        pipeline.addLast(new ProtobufDecoder(DataInfo.Person.getDefaultInstance()));
+        pipeline.addLast(new ProtobufDecoder(MyDataInfo.Person.getDefaultInstance()));
         pipeline.addLast(new ProtobufVarint32LengthFieldPrepender());
         pipeline.addLast(new ProtobufEncoder());
 
@@ -72,21 +69,40 @@ class MyClientInitializer extends ChannelInitializer<SocketChannel> {
     }
 }
 
-class MyClientHandler extends SimpleChannelInboundHandler<DataInfo.Person> {
+class MyClientHandler extends SimpleChannelInboundHandler<MyDataInfo.MyMessage> {
 
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, DataInfo.Person person) throws Exception {
+    protected void channelRead0(ChannelHandlerContext ctx, MyDataInfo.MyMessage myMessage) throws Exception {
 
 
     }
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        int randomInt = new Random().nextInt(3);
 
-        DataInfo.Person person =DataInfo.Person.newBuilder().setName("张三").setAge(20).setAddress("北京").build();
+        MyDataInfo.MyMessage myMessage = null;
+        if (0 == randomInt) {
+            myMessage = MyDataInfo.MyMessage.newBuilder()
+                    .setDataType(MyDataInfo.MyMessage.DataType.PersonType)
+                    .setPerson(MyDataInfo.Person.newBuilder().setName("张三").setAge(20).setAddress("北京").build())
+                    .build();
+        } else if (1 == randomInt) {
+            myMessage = MyDataInfo.MyMessage.newBuilder()
+                    .setDataType(MyDataInfo.MyMessage.DataType.DogType)
+                    .setDog(MyDataInfo.Dog.newBuilder().setName("张三").setAge(20).build())
+                    .build();
+        } else {
+
+            myMessage = MyDataInfo.MyMessage.newBuilder()
+                    .setDataType(MyDataInfo.MyMessage.DataType.CatType)
+                    .setCat(MyDataInfo.Cat.newBuilder().setName("张三").setCity("北京").build())
+                    .build();
+        }
+
 
         //发送给服务器
-        ctx.writeAndFlush(person);
+        ctx.writeAndFlush(myMessage);
     }
 
     @Override
