@@ -48,7 +48,7 @@ public class NioTest12 {
 
             System.out.println("监听端口:" + ports[i]);
 
-            //selector 注册 到 channel上
+            //channel注册 到  selector 上
             serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 
         }
